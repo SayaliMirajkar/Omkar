@@ -121,22 +121,41 @@ public class ImageUrlUtils {
         return urls;
     }
 
+    /*
+
+    https://ibb.co/hy1QdK
+    https://ibb.co/d18Sse
+    https://ibb.co/hdyhQz
+    https://ibb.co/iTbQdK
+    https://ibb.co/g9UNQz
+    https://ibb.co/fGFwkz
+    https://ibb.co/cSG2Qz
+    https://ibb.co/i0qkdK
+    https://ibb.co/dVXLCe
+    https://ibb.co/mbhbkz
+    https://ibb.co/eR6fCe
+    https://ibb.co/jpDhQz
+    https://ibb.co/nvA7se
+    https://ibb.co/k0Hbkz
+    https://ibb.co/nCDGkz*/
     public static String[] getOffersUrls() {
         String[] urls = new String[]{
-                "https://static.pexels.com/photos/1543/landscape-nature-man-person-medium.jpg",
-                "https://static.pexels.com/photos/211048/pexels-photo-211048-medium.jpeg",
-                "https://static.pexels.com/photos/1778/numbers-time-watch-white-medium.jpg",
-                "https://static.pexels.com/photos/111147/pexels-photo-111147-medium.jpeg",
-                "https://static.pexels.com/photos/2713/wall-home-deer-medium.jpg",
-                "https://static.pexels.com/photos/168575/pexels-photo-168575-medium.jpeg",
-                "https://static.pexels.com/photos/213384/pexels-photo-213384-medium.jpeg",
-                "https://static.pexels.com/photos/67442/pexels-photo-67442-medium.jpeg",
-                "https://static.pexels.com/photos/159494/book-glasses-read-study-159494-medium.jpeg",
-                "https://static.pexels.com/photos/1543/landscape-nature-man-person-medium.jpg",
-                "https://static.pexels.com/photos/211048/pexels-photo-211048-medium.jpeg",
-                "https://static.pexels.com/photos/2713/wall-home-deer-medium.jpg",
-                "https://static.pexels.com/photos/177143/pexels-photo-177143-medium.jpeg",
-                "https://static.pexels.com/photos/106936/pexels-photo-106936-medium.jpeg"
+                "http://i68.tinypic.com/dvip94.png",
+                "http://i67.tinypic.com/t855b5.png",
+                "http://i64.tinypic.com/2ylr2o7.png",
+                "http://i68.tinypic.com/a1su8h.png",
+                "http://i67.tinypic.com/smyhkh.png",
+                "http://i67.tinypic.com/w7zkfp.png",
+                "http://i67.tinypic.com/2yo1fdj.png",
+                "http://i63.tinypic.com/fxb9uc.png",
+                "http://i64.tinypic.com/i23as0.png",
+                "http://i67.tinypic.com/2e0k0fs.png",
+                "http://i67.tinypic.com/11kl4j5.png",
+                "http://i67.tinypic.com/ossc29.png",
+                "http://i64.tinypic.com/1zfr0rb.png",
+                "http://i68.tinypic.com/315ncm1.png",
+                "http://i64.tinypic.com/3d2si.png",
+                "http://i68.tinypic.com/21awly9.png"
         };
         return urls;
     }
