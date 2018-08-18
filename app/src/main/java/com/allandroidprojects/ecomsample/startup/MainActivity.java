@@ -136,31 +136,6 @@ public class MainActivity extends AppCompatActivity
         bundle.putInt("type", 1);
         fragment.setArguments(bundle);
         adapter.addFragment(fragment, getString(R.string.item_1));
-        fragment = new ImageListFragment();
-        bundle = new Bundle();
-        bundle.putInt("type", 2);
-        fragment.setArguments(bundle);
-        adapter.addFragment(fragment, getString(R.string.item_2));
-        fragment = new ImageListFragment();
-        bundle = new Bundle();
-        bundle.putInt("type", 3);
-        fragment.setArguments(bundle);
-        adapter.addFragment(fragment, getString(R.string.item_3));
-        fragment = new ImageListFragment();
-        bundle = new Bundle();
-        bundle.putInt("type", 4);
-        fragment.setArguments(bundle);
-        adapter.addFragment(fragment, getString(R.string.item_4));
-        fragment = new ImageListFragment();
-        bundle = new Bundle();
-        bundle.putInt("type", 5);
-        fragment.setArguments(bundle);
-        adapter.addFragment(fragment, getString(R.string.item_5));
-        fragment = new ImageListFragment();
-        bundle = new Bundle();
-        bundle.putInt("type", 6);
-        fragment.setArguments(bundle);
-        adapter.addFragment(fragment, getString(R.string.item_6));
         viewPager.setAdapter(adapter);
     }
 
@@ -172,17 +147,7 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_item1) {
             viewPager.setCurrentItem(0);
-        } else if (id == R.id.nav_item2) {
-            viewPager.setCurrentItem(1);
-        } else if (id == R.id.nav_item3) {
-            viewPager.setCurrentItem(2);
-        } else if (id == R.id.nav_item4) {
-            viewPager.setCurrentItem(3);
-        } else if (id == R.id.nav_item5) {
-            viewPager.setCurrentItem(4);
-        }else if (id == R.id.nav_item6) {
-            viewPager.setCurrentItem(5);
-        }else if (id == R.id.my_wishlist) {
+        } else if (id == R.id.my_wishlist) {
             startActivity(new Intent(MainActivity.this, WishlistActivity.class));
         }else if (id == R.id.my_cart) {
             startActivity(new Intent(MainActivity.this, CartListActivity.class));
